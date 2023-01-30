@@ -1,0 +1,4 @@
+v1
+{"path":"file:///C:/Users/SHTLP0063/Desktop/Spark/realtime/filestream/output/part-00000-ad5e9bd2-2717-4b09-bfdf-ea4a71f40602-c000.json","size":452028,"isDir":false,"modificationTime":1675058644255,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Users/SHTLP0063/Desktop/Spark/realtime/filestream/output/part-00001-c4111e7c-8e23-43a6-84eb-3c1e50e46c67-c000.json","size":385994,"isDir":false,"modificationTime":1675058644247,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Users/SHTLP0063/Desktop/Spark/realtime/filestream/output/part-00002-4fcedf08-f265-463c-8d33-afb4e9de60a0-c000.json","size":378746,"isDir":false,"modificationTime":1675058644245,"blockReplication":1,"blockSize":33554432,"action":"add"}

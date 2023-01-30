@@ -1,0 +1,4 @@
+v1
+{"path":"file:///C:/Users/SHTLP0063/Desktop/Spark/realtime/filestream/input/Invoice-set1.json","timestamp":1601098026000,"batchId":0}
+{"path":"file:///C:/Users/SHTLP0063/Desktop/Spark/realtime/filestream/input/Invoice-set2.json","timestamp":1601098026000,"batchId":0}
+{"path":"file:///C:/Users/SHTLP0063/Desktop/Spark/realtime/filestream/input/Invoice-set3.json","timestamp":1601098026000,"batchId":0}
