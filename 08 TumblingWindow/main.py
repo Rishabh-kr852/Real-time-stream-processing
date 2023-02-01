@@ -40,10 +40,11 @@ if __name__ == "__main__":
 
     # trade_df.printSchema()
 
-    window_agg_df = trade_df\
-        .groupBy( col("BrokerCode"),
-         window(col("CreatedTime"), "15 minute")) \
-        .agg(sum("Buy").alias("TotalBuy"), sum("Sell").alias("TotalSell"))
+    window_agg_df = trade_df \
+        .withWatermark("CreatedTime", "30 minute") \
+        .groupBy(window(col("CreatedTime"), "15 minute")) \
+        .agg(sum("Buy").alias("TotalBuy"),
+             sum("Sell").alias("TotalSell"))
 
     output_df = window_agg_df.select("window.start", "window.end", "TotalBuy", "TotalSell")
 
